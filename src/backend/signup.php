@@ -1,4 +1,5 @@
 <?php
+//aqui llamamos a quien tiene la conexion 
 include ('../../config/database.php');
  
  $fname = $_POST['f_name'];
@@ -6,10 +7,11 @@ include ('../../config/database.php');
  $email = $_POST['e_mail'];
  $passwd= $_POST['passw'];
 
-
+ //$enc_pass= md5($passwd);
+//SHA 256 
 $enc_pass =sha1($passwd);
 
-
+//Aqui voy a validad si el email ya existe en la bd
 $sql_email_exist = "
    SELECT 
       COUNT(email) as total  
