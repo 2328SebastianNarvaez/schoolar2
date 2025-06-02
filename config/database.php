@@ -16,8 +16,8 @@
     $host = "aws-0-us-east-1.pooler.supabase.com"; 
     $port="6543"; 
     $dbname="postgres";  
-    $user="postgres.ojnwvpnaqszlwbmqdxjw"; 
-    $password ="unicesmag@@"; 
+    $user="postgres.rmudcnadrfnxfzxiibls"; 
+    $password ="1251"; 
     
 
 
